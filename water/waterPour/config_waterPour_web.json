@@ -1,0 +1,41 @@
+{
+  "name": "waterPour",
+  "platform": "web-mobile",
+  "channel": "web-game",
+  "outputName": "web-waterPour",
+  "debug": false,
+  "md5Cache": true,
+  "buildPath": "project://build",
+  "skipCompressTexture": false,
+  "sourceMaps": false,
+  "polyfills": {
+    "asyncFunctions": true
+  },
+  "experimentalEraseModules": false,
+  "useBuiltinServer": false,
+  "mainBundleIsRemote": false,
+  "mainBundleCompressionType": "merge_dep",
+  "replaceSplashScreen": false,
+  "startScene": "754bac73-b8ac-457e-890f-20aeb756d918",
+  "scenes": [
+    {
+      "url": "db://assets/scene.scene",
+      "uuid": "754bac73-b8ac-457e-890f-20aeb756d918",
+      "inBundle": false
+    }
+  ],
+  "web-desktop": [],
+  "packages": {
+    "web-mobile": {
+      "orientation": "portrait",
+      "embedWebDebugger": false,
+      "__version__": "1.0.1"
+    },
+    "cocos-service": {
+      "configID": "c672bb",
+      "services": []
+    }
+  },
+  "__version__": "1.3.3",
+  "web-mobile": []
+}
